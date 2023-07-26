@@ -1,0 +1,134 @@
+h1 {  font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+#title
+{
+  background-color: #ff4c68;
+  }
+.container-fluid
+{
+  padding: 3% 15%;
+}
+.title-image
+{
+  transform:rotate(30deg);
+  width:60%;
+  position:relative;
+}
+#features
+{
+
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+}
+li{
+  margin-right: 10%;
+  font-size: 1.2rem;
+}
+h2
+{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3
+{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.7rem;
+}
+.icon:hover
+{
+  color:#ef8172;
+}
+.features-box
+{
+  text-align:center;
+  padding: 5%;
+}
+
+#testimonials
+{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+}
+#press
+{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo
+{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+#cta
+{
+  background-color: #ff4c68;
+  align-items: center;
+  padding:10%
+
+}
+.bottom
+{
+  text-align: center;
+  color: #fff;
+  font-size:4rem;
+
+}
+.bottom-btn1
+{
+  margin-top:7%;
+  margin-left: 32%;
+
+}
+.bottom-btn2
+{
+  margin-top: 7%;
+
+  margin-left:5%;
+
+}
+
+.icon-foot
+{
+  margin-top: 3%;
+  text-align:center;
+padding-bottom:3%;
+}
+.foot
+{
+  margin-top: 3%;
+  padding-top: 3%
+  text-align: center;
+}
+@media(max-width:1020px) {
+  .title-image{
+    transform:rotate(0deg);
+    transform: translateY(10);
+    margin-top: 5%;
+    }
+}
+@media(max-width:720px) {
+  .foot
+  {
+    text-align: center;
+  }
+  .icon-foot
+  {
+    text-align: center;
+
+  }
+  .bottom-btn2
+  {
+    margin-top:7%;
+    margin-left: 32%;
+  }
+
+}
